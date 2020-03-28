@@ -1,6 +1,6 @@
 const app = require('express')();
 const port = process.env.PORT || 8091;
-const secret = '7PTHJIQWen0q84EGXQJdxGuz1BCU41qq'; // some secret for a basic level of protection!
+const secret = 'Your Secret!'; // some secret for a basic level of protection!
 const {
 	exec
 } = require('child_process');
