@@ -1,0 +1,25 @@
+<service>
+	<id>shutdown.exe</id>
+	<name>Shutdown</name>
+	<description>Shutdown and other function on this device</description>
+	<executable>C:\Program Files\nodejs\node.exe</executable>
+	<logmode>rotate</logmode>
+	<argument>--harmony</argument>
+	<argument>C:\Users\Yash Karaday\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js</argument>
+	<argument>--file</argument>
+	<argument>D:\~ Devlopement\GitHub\ShutDown-on-Lan\app.js</argument>
+	<argument>--log</argument>
+	<argument>Shutdown wrapper</argument>
+	<argument>--grow</argument>
+	<argument>0.25</argument>
+	<argument>--wait</argument>
+	<argument>1</argument>
+	<argument>--maxrestarts</argument>
+	<argument>3</argument>
+	<argument>--abortonerror</argument>
+	<argument>n</argument>
+	<argument>--stopparentfirst</argument>
+	<argument>undefined</argument>
+	<stoptimeout>30sec</stoptimeout>
+	<workingdirectory>C:\Users\Yash Karaday</workingdirectory>
+</service>

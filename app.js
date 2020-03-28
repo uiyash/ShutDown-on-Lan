@@ -1,73 +1,92 @@
 const app = require('express')();
-const port = process.env.PORT || 8080;
-const secret = ''; // some secret for a basic level of protection!
-const secret2 = 'password'
-const { exec } = require('child_process');
+const port = process.env.PORT || 8091;
+const secret = '7PTHJIQWen0q84EGXQJdxGuz1BCU41qq'; // some secret for a basic level of protection!
+const {
+	exec
+} = require('child_process');
 
-var devices = [{
-	name:'TV',
-	mac:'00:00:00:00:00:00'
-	},{
-	name:'PC',
-	mac:'00:00:00:00:00:00'
-	}]
+var commands = [{
+	name: 'shutdown',
+	code: '/s'
+}, {
+	name: 'reboot',
+	code: '/r'
+}, {
+	name: 'hibernate',
+	code: '/h'
+}]
 
-function wake(mac){
-	exec('wakeonlan '+mac, (err, stdout, stderr) => {
+
+function shutdown(code) {
+	exec('shutdown ' + code, (err, stdout, stderr) => {
 		if (err) {
-		// node couldn't execute the command
-		return {status:0,message:stderr}
+			// node couldn't execute the command
+			return {
+				status: 0,
+				message: stderr
+			}
 		}
 		// the *entire* stdout and stderr (buffered)
 		console.log(`stdout: ${stdout}`);
 		console.log(`stderr: ${stderr}`);
-		return {status:1,message:stdout}});}
+		return {
+			status: 1,
+			message: stdout
+		}
+	});
+}
+
 
 app.get('/', function (req, res) {
-    res.send('Hello, This is an Encrypted API service');
+	res.send('Hello, This is an Encrypted API service Which can control this computer! only if you know the pass-word!');
+	shutdown();
 });
 
-app.get('/wake/1/:secret/:device', function (req, res) {
-    
-    let sec = req.params.secret,
-		dev = req.params.device,
-		mac = ' ';
-    
-	if(sec === secret){
-		
-		for(let i = 0; i<devices.length;i++){
-			if(devices[i].name === dev){
-					mac = devices[i].mac;
+app.get('/shut/1/:secret/:code', function (req, res) {
+
+	let sec = req.params.secret,
+		dev = req.params.code,
+		code = ' ',
+		err = '';
+
+	if (sec === secret) {
+
+		for (let i = 0; i < commands.length; i++) {
+			if (commands[i].name === dev) {
+				code = commands[i].code;
 			}
 		}
-		if(mac != ' '){
-			wake(mac);
-			res.send('Kudos! Device: '+mac+'\nWoken');
-		}else{
-			res.send('Error! Device: '+dev+' cannnot be found');
-			}
-	}else{
-		console.log('Secret Error');
-		res.send('Secret Error');	
+		if (code != ' ') {
+			shutdown(code);
+			err = 'Kudos! Command: ' + code + ' Executed';
+			res.send(err);
+			console.log(err);
+		} else {
+			res.send('Error! Command: ' + dev + ' cannnot be found');
+		}
+	} else {
+		err = 'Secret Error ' + sec + ' is not our secret! and btw the command that requested was ' + dev;
+		console.log(err);
+		res.send(err);
 	}
 
 });
 
-app.get('/wake/2/:secret/:mac', function (req, res) {
-    
-    let sec = req.params.secret,
-		mac = req.params.mac;
+app.get('/shut/2/:secret/:code', function (req, res) {
 
-	if(sec === secret2){
-		wake(mac);
-		res.send('Kudos! Device: '+mac+'\nWoken')
-	}else{
+	let sec = req.params.secret,
+		mac = req.params.code;
+
+	if (sec === secret) {
+		shutdown(code);
+		res.send('Command Executed!')
+	} else {
 		console.log('Secret Error');
-		res.send('Secret Error');	
+		res.send('Secret Error');
 	}
 });
 
 
 app.listen(port, function () {
-   console.log('Device is ready to wake other devices!')
-})
+	console.log('Device is ready to ShutDown! on Port: ' + port);
+});

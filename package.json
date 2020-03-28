@@ -1,15 +1,24 @@
 {
-  "name": "wol",
+  "name": "shutdown-on-lan",
   "version": "1.0.0",
-  "description": "",
+  "description": "ShutDown a Computer via Lan",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Yash Karade",
-  "license": "ISC",
   "dependencies": {
     "child_process": "^1.0.2",
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uiyash/ShutDown-on-Lan.git"
+  },
+  "author": "uiyash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uiyash/ShutDown-on-Lan/issues"
+  },
+  "homepage": "https://github.com/uiyash/ShutDown-on-Lan#readme"
 }
