@@ -1,6 +1,7 @@
+require('dotenv').config()
 const app = require('express')();
 const port = process.env.PORT || 8091;
-const secret = 'Your Secret!'; // some secret for a basic level of protection!
+const secret = process.env.SECRET || 'Your Secret!'; // some secret for a basic level of protection!
 const {
 	exec
 } = require('child_process');
@@ -16,6 +17,7 @@ var commands = [{
 	code: '/h'
 }]
 
+console.log(`The Secret is ${secret}`);
 
 function shutdown(code) {
 	exec('shutdown ' + code, (err, stdout, stderr) => {
