@@ -1,0 +1,158 @@
+2023-11-24 02:26:08 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\karad\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file E:\Documents\GitHub\ShutDown-on-Lan\app.js --log "SHUTDOWNONLAN wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-11-24 02:26:08 - Started 14316
+2023-11-24 02:34:34 - Stopping shutdownonlan.exe
+2023-11-24 02:34:34 - ProcessKill 14316
+2023-11-24 02:34:34 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-11-24 15:41:40 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\karad\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file E:\Documents\GitHub\ShutDown-on-Lan\app.js --log "SHUTDOWNONLAN wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-11-24 15:41:40 - Started 5852
+2023-11-27 15:32:48 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\karad\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file E:\Documents\GitHub\ShutDown-on-Lan\app.js --log "SHUTDOWNONLAN wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-11-27 15:32:48 - Started 7316
+2023-11-28 00:58:05 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\karad\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file E:\Documents\GitHub\ShutDown-on-Lan\app.js --log "SHUTDOWNONLAN wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-11-28 00:58:05 - Started 5980
+2023-11-29 20:27:09 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\karad\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file E:\Documents\GitHub\ShutDown-on-Lan\app.js --log "SHUTDOWNONLAN wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-11-29 20:27:09 - Started 6052
+2023-12-02 19:06:54 - Stopping shutdownonlan.exe
+2023-12-02 19:06:54 - ProcessKill 6052
+2023-12-02 19:06:54 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-12-04 16:59:50 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\karad\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file E:\Documents\GitHub\ShutDown-on-Lan\app.js --log "SHUTDOWNONLAN wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-12-04 16:59:50 - Started 10032
+2023-12-04 21:34:14 - Stopping shutdownonlan.exe
+2023-12-04 21:34:14 - ProcessKill 10032
+2023-12-04 21:34:14 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-12-05 16:53:10 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\karad\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file E:\Documents\GitHub\ShutDown-on-Lan\app.js --log "SHUTDOWNONLAN wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-12-05 16:53:10 - Started 6036
+2023-12-06 04:32:40 - Stopping shutdownonlan.exe
+2023-12-06 04:32:40 - ProcessKill 6036
+2023-12-06 04:32:40 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-12-06 17:34:16 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\karad\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file E:\Documents\GitHub\ShutDown-on-Lan\app.js --log "SHUTDOWNONLAN wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-12-06 17:34:16 - Started 2424
+2023-12-08 00:34:56 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\karad\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file E:\Documents\GitHub\ShutDown-on-Lan\app.js --log "SHUTDOWNONLAN wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-12-08 00:34:56 - Started 5992
+2023-12-08 02:33:15 - Stopping shutdownonlan.exe
+2023-12-08 02:33:15 - ProcessKill 5992
+2023-12-08 02:33:15 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-12-08 14:29:10 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\karad\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file E:\Documents\GitHub\ShutDown-on-Lan\app.js --log "SHUTDOWNONLAN wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-12-08 14:29:10 - Started 4420
+2023-12-09 14:09:21 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\karad\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file E:\Documents\GitHub\ShutDown-on-Lan\app.js --log "SHUTDOWNONLAN wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-12-09 14:09:21 - Started 6296
+2023-12-09 20:56:56 - Stopping shutdownonlan.exe
+2023-12-09 20:56:56 - ProcessKill 6296
+2023-12-09 20:56:56 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-12-11 14:52:55 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\karad\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file E:\Documents\GitHub\ShutDown-on-Lan\app.js --log "SHUTDOWNONLAN wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-12-11 14:52:55 - Started 10128
+2023-12-12 14:33:31 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\karad\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file E:\Documents\GitHub\ShutDown-on-Lan\app.js --log "SHUTDOWNONLAN wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-12-12 14:33:31 - Started 5196
+2023-12-13 04:13:00 - Stopping shutdownonlan.exe
+2023-12-13 04:13:00 - ProcessKill 5196
+2023-12-13 04:13:00 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-12-13 15:06:47 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\karad\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file E:\Documents\GitHub\ShutDown-on-Lan\app.js --log "SHUTDOWNONLAN wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-12-13 15:06:47 - Started 6732
+2023-12-14 03:41:52 - Stopping shutdownonlan.exe
+2023-12-14 03:41:52 - ProcessKill 6732
+2023-12-14 03:41:52 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-12-14 15:27:04 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\karad\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file E:\Documents\GitHub\ShutDown-on-Lan\app.js --log "SHUTDOWNONLAN wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-12-14 15:27:04 - Started 5424
+2023-12-14 23:12:52 - Stopping shutdownonlan.exe
+2023-12-14 23:12:52 - ProcessKill 5424
+2023-12-14 23:12:52 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-12-18 16:20:45 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\karad\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file E:\Documents\GitHub\ShutDown-on-Lan\app.js --log "SHUTDOWNONLAN wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-12-18 16:20:45 - Started 5532

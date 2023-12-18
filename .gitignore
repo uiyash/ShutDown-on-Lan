@@ -27,3 +27,12 @@ node/
 ### Format2  ###
 **/frontend/node_modules/**
 **/frontend/node/**
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# dotenv environment variables file
+.env

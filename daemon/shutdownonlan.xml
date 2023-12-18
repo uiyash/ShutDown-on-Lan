@@ -1,15 +1,15 @@
 <service>
-	<id>shutdown.exe</id>
-	<name>Shutdown</name>
-	<description>Shutdown and other function on this device</description>
+	<id>shutdownonlan.exe</id>
+	<name>SHUTDOWNONLAN</name>
+	<description>SHUTDOWNONLAN</description>
 	<executable>C:\Program Files\nodejs\node.exe</executable>
 	<logmode>rotate</logmode>
 	<argument>--harmony</argument>
-	<argument>C:\Users\Yash Karaday\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js</argument>
+	<argument>C:\Users\karad\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js</argument>
 	<argument>--file</argument>
-	<argument>D:\~ Devlopement\GitHub\ShutDown-on-Lan\app.js</argument>
+	<argument>E:\Documents\GitHub\ShutDown-on-Lan\app.js</argument>
 	<argument>--log</argument>
-	<argument>Shutdown wrapper</argument>
+	<argument>SHUTDOWNONLAN wrapper</argument>
 	<argument>--grow</argument>
 	<argument>0.25</argument>
 	<argument>--wait</argument>
@@ -21,5 +21,5 @@
 	<argument>--stopparentfirst</argument>
 	<argument>undefined</argument>
 	<stoptimeout>30sec</stoptimeout>
-	<workingdirectory>C:\Users\Yash Karaday</workingdirectory>
+	<workingdirectory>E:\Documents\GitHub\ShutDown-on-Lan</workingdirectory>
 </service>
